@@ -1,0 +1,130 @@
+/*公共部分*/
+body{font-family:'Microsoft YaHei'}
+a,a:hover{color: #555;  text-decoration: none;}
+.gray{ color:#999}
+.blue{color: #025dae}
+.white{ color:#fff}
+.red{ color: #fd0005 }
+.font16{font-size: 16px;}
+.font24{ font-size:1.5em}
+.clearfix{*zoom:1;}
+.mt10{margin-top: 10px}
+.mt5{ margin-top: 5px }
+.mr20{ margin-right:20px;}
+.ml15{margin-left: 15px;}
+.mb20{ margin-bottom:20px}
+.mb10{ margin-bottom:10px}
+.mb5{ margin-bottom:5px}
+.pt10{ padding-top: 10px }
+.pt20{ padding-top: 20px }
+.pb10{ padding-bottom:10px}
+.pb20{ padding-bottom:20px}
+.withBtBorder{ border-bottom:1px solid #ddd;}
+.withTopBorder{ border-top:1px solid #ddd;}
+.cutFont{white-space:nowrap; text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden;}
+
+.banner{ background:url(../img/banner.png) top center; background-size: cover; padding: 4.5% 0; width:100%;}
+.pheader{ /*padding-top:80px;*/}
+.img-pig{width: 80px;border: 2px solid #999;margin-right: 10px;}
+
+.navBox {padding: 3% 1% 1%;}
+.navList {list-style:none;padding-left: 0;margin-bottom: 0;}
+.navList li{float:left;margin-right: 6%;margin-bottom: 10px;}
+.navList li a{font-size: 1.125em;}
+.navList li.cur a,.navList li a:hover,.navList li a:focus{ color:#fd0005; text-decoration:none}
+.fa{display:inline-block;position:relative;width:22px;height:20px;/* vertical-align: middle; */float: left; margin-right:3px}
+.fa-home{ background:url(../img/ico-home.png) center center no-repeat; background-size:100%;}
+.navList li a:hover .fa-home,.navList li.cur a .fa-home{ background-image:url(../img/ico-home-cur.png)}
+.fa-trends{ background:url(../img/ico-trends.png) center center no-repeat; background-size:100%;}
+.navList li a:hover .fa-trends,.navList li.cur a .fa-trends{ background-image:url(../img/ico-trends-cur.png)}
+.fa-fav{ background:url(../img/ico-fav.png) center center no-repeat; background-size:100%;}
+.navList li a:hover .fa-fav,.navList li.cur a .fa-fav{ background-image:url(../img/ico-fav-cur.png)}
+
+#conWrap{background-color: #f4f6f8;padding-top:30px;padding-bottom:20px;}
+.siderBar .panel-body{padding: 0}
+.nav-tabs>li{margin-bottom:0;}
+.nav-tabs li a{border: none;border-bottom: 1px solid #fff;border-radius: 0;color: #fd0005;font-size: 1.125em;padding:15px 30px;}
+.nav-tabs li.active a, .nav-tabs li.active a:focus, .nav-tabs li.active a:hover,.nav-tabs li a:hover{border: none;color: #fd0005;cursor: pointer;background-color: #fff;border-bottom: 1px solid #fd0005;}
+#course a:hover .div_hover { color: #fd0005}
+#qa{ padding: 0 15px; }
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{ background-color: #999 }
+.qaList,.motionList{ list-style: none; padding-left: 0; }
+.qaList li,.motionList li{ border-bottom: 1px solid #ddd; padding-bottom: 15px; margin-bottom: 15px; }
+.qaList li h5,.motionList li h5{font-size: 16px;}
+#editor{width: 100%;height: 100px; border: 1px solid #ddd; padding:10px;}
+.redBtn,.redBrdBtn,.whiteBrBtn {display: inline-block;color: #fff;text-align: center;padding:10px 30px;}
+.redBtn{background-color: #fd0005;border:none;}
+.redBrdBtn { color: #fd0005;border:1px solid #fd0005;}
+.redBrdBtn:hover {border-color: #d2230c;color: #d2230c;text-decoration: none;}
+.whiteBrBtn{color: #fff;border:1px solid #fff;padding: 10px 20px;min-width: 98px;}
+.backHome:hover,.whiteBrBtn:hover{ color: #eee }
+.backHome{display: inline-block;background: url(../img/ico-home-x2.png) no-repeat;padding-left: 30px;line-height: 24px;}
+.pull-mr10 span{margin-left: 15px;}
+
+.motionTit{padding: 15px 20px;border-bottom: 1px solid #ddd;}
+.btn-custom-xs{display:inline-block;padding:2px 10px;border:1px solid #fff;margin-right:5px;color: #999;}
+.btn-custom-xs:hover{ border-color:#ddd; border-radius:3px;}
+.motionBox { padding:20px 25px;}
+.motionFooter .pull-right{ padding-top:3px}
+.motionImg{width:70%;}
+.followTit>strong,.followTit>a{ display: block; }
+/*名片*/
+.card{width: 191px;height: 130px;padding: 3px 3px 3px 10px;background: url(../img/card.png) no-repeat;position: absolute;z-index: 5000;left: 0;top: 0;display: block;zoom:1;}
+.card .iden{ position: absolute; top: 3px; right: 3px; width: 35px; height: 35px; line-height: 0; font-size: 0; background: url(../img/iden.gif) no-repeat;}
+.card .iden_s{ background-position: 0 -35px;}
+.card .iden_t{ background-position: 0 0px;}
+.card .infor{padding: 9px 0 0 8px;height: 70px;position: relative;z-index: 50;}
+.card .infor dl{ overflow: hidden; zoom: 1;}
+.card .infor dt{ float: left; display: inline; width: 45px; height: 45px; border: 1px solid #bcddf7; margin: 0 6px 0 0;}
+.card .infor dt img{ width: 100%; height: 100%; display: block;}
+.card .infor dd{float: left;display: inline;font-size: 14px;width: 106px;}
+.card .infor dd, .card .infor dd a, .card .infor dd a:hover{ color: #646464;}
+.card .infor dd .p1{height: 18px;line-height: 18px;overflow: hidden;font-weight: bold;margin-bottom: 0;}
+.card .infor dd .p2{height: 36px;line-height: 18px;margin-top: 1px;overflow: hidden;font-size: 12px;}
+.card .btn_area{padding: 15px 0 0 4px;}
+.card .btn_area ul{padding: 0;   margin: 0;}
+.card .btn_area li{float: left;display: inline;padding: 0 1px;zoom:1;}
+.card .btn_area li.select_block{ position: relative;}
+.card .btn_area li .select_block_eject{ float: left; display: inline; zoom: 1; width: 100%; border: 1px solid #d9d9d9; box-shadow: 0 0 1px #d2cdc4; background: #fff; white-space: nowrap; position: absolute; top: 24px; left: 2px; display: none;}
+.card .btn_area li .select_block_eject a{ display: block; height: 24px; line-height: 24px; overflow: hidden; zoom:1; text-align: center; color: #646464;}
+.card .btn_area li .select_block_eject a:hover{ background: #eee; text-decoration: none; color: #f60;}
+.card .btn_area .card_btn{ float: left; display: inline; _padding-top: 3px; _height:21px; _line-height:21px;}
+.card_btn{ display: inline-block; padding: 0 5px; height: 24px; line-height: 24px; border: 1px solid #d9d9d9; border-radius: 2px; color: #646464; background: #fff; white-space: nowrap; zoom:1;}
+.card_btn:hover{ color: #646464; text-decoration: none; box-shadow: 0px 0px 1px #999;}
+.card .btn_area .card_ico{ margin: 0 4px 0 0;}
+.card .btn_area .card_ico1{ margin: 0 4px 0 5px;}
+.card_ico{ display: inline-block; vertical-align: baseline; vertical-align: middle\9; background: url(../img/card_ico.gif) no-repeat; width: 10px; height: 10px; line-height: 0; font-size: 0;}
+.card_ico1{ background-position: 0 0;}
+.card_ico2{ background-position: 0 -11px; width: 9px; height: 9px;}
+.card_ico3{ background-position: 0 -21px; width: 10px; height: 9px;}
+.card_ico4{ background-position: 0 -31px; width: 10px; height: 7px;}
+/*添加评论*/
+.posir{ position: relative; }
+.onarr{position:absolute; top:22px; left:8px;background: url(../img/comment-arr.png) no-repeat;/* bottom: 10px; */display: inline-block; width: 12px; height: 10px}
+.castLabel{font-weight: 400;margin-bottom: 0;font-size: 12px}
+.castLabel input{ vertical-align: -3px }
+.resetRow{ padding: 0 15px }
+/*媒体查询*/
+/*大于769的设备*/
+@media (min-width:769px){
+.text-indent5{ text-indent:-5em; padding-left:5em}
+.minHeight-xs{ min-height:268px}
+} 
+
+/*小于768的设备*/
+@media (min-width:0px) and (max-width:768px){
+.navList li a{ font-size:1em;}
+.nav-tabs li a{font-size: 1.0em;padding:15px 20px;}
+.motionList li .times{ text-align: right; width: 100%; margin-bottom: 5px }
+.followTit{ padding-top: 10px; }
+.followTit>strong{ margin-bottom: 10px; text-align: center; }
+.followTit>strong,.followTit>a{ float: none!important }
+#card{display: none!important}
+}
+/*小于640的设备*/
+@media (min-width:0px) and (max-width:640px){
+	.col-adjust>.col-md-2,.col-adjust>.col-md-10{ float:none; width:100%;}
+	.motionBox{ padding:10px 15px;}
+	.motionImg{ width: 100%; }
+	.gustBookTit { margin-bottom: 10px; padding-bottom: 0; }
+}

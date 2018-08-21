@@ -1,0 +1,442 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>个人主页</title>
+<link href="Content/css/bootstrap.min.css" rel="stylesheet" >
+<!--个人中心样式-->
+<link href="Content/css/pcenter.css" rel="stylesheet" >
+<script src="Content/js/jquery-3.0.0.min.js"></script>
+<script src="Content/js/bootstrap.min.js"></script>
+<!--编辑器-->
+<link rel="stylesheet" href="Content/js/kindeditor/themes/default/default.css" />
+<script src="Content/js/kindeditor/kindeditor-min.js"></script>
+<script src="Content/js/kindeditor/lang/zh_CN.js"></script>
+</head>
+<body>
+<!--头部代码省略-->    
+
+<!--banner信息-->
+<div class="banner">
+	<div class="container">
+    	<div class="row pheader">
+        	<div class="col-xs-12 col-md-5">
+                <div class="media mb10">
+                    <a class="pull-left" href="#">
+                        <img class="img-pig img-circle" src="Content/img/s1.jpg" alt="头像">
+                    </a>
+                    <div class="media-body white">
+                        <h4 class="media-heading mb10">怒切萝卜</h4>
+                        <p>身份类别：<span>学员</span></p>
+                        <p class="text-indent5">个性签名：<span>这是一些示例文本。这是一些示例文本。</span></p>
+                    </div>
+                </div>            	
+            </div>
+        </div>
+    </div>
+</div>
+<!--导航信息-->
+<div class="container">
+    <div class="navBox">
+    	<ul class="navList clearfix">
+            <li class="cur"><a href="index.html"><i class="fa fa-home"></i>我的主页</a></li> 
+            <li><a href="motion.html"><i class="fa fa-trends"></i>好友动态</a></li> 
+            <li><a href="fav.html"><i class="fa fa-fav"></i>收藏夹</a></li>   
+        </ul>
+    </div>
+</div>            
+<!--内容区域-->
+<div id="conWrap">
+    <div class="container">
+        <div class="row">
+            <!--left-->
+            <div class="col-md-8 col-xs-12">
+                <div class="panel panel-default">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist" style="padding: 0 20px">
+                        <li role="presentation" class="active"><a href="#course" role="tab" data-toggle="tab">课程</a></li>
+                        <li role="presentation"><a href="#qa" role="tab" data-toggle="tab">问答</a></li>
+                        <li role="presentation"><a href="#motion" role="tab" data-toggle="tab">动态</a></li>
+                    </ul>
+                    <div class="panel-body">
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <!--第一个标签页：课程-->
+                            <div role="tabpanel" class="tab-pane conText active" id="course">
+                                <div class="row">
+                                    <!--在此处循环输出-->
+                                    <div class="col-md-4 col-xs-12 col-sm-6 mb20">
+                                        <a href='./courseinfo?cid=d6d5a9fd-ba60-4c7e-8ef0-c00c3893f15f' >
+                                            <img class="img-responsive" src="Content/img/20161104205906937.jpg" alt="">
+                                            <div class="div_hover mt10">JDBC与数据库</div>
+                                        </a>
+                                        <div class="clearfix mt5"><span class="pull-left gray">123人在学</span><span class="pull-right red">&yen;120.00</span></div>
+                                    </div>
+
+                                    <div class="col-md-4 col-xs-12 col-sm-6 mb20">
+                                        <a href='./courseinfo?cid=d6d5a9fd-ba60-4c7e-8ef0-c00c3893f15f' >
+                                            <img class="img-responsive" src="Content/img/20161104205906937.jpg" alt="">
+                                            <div class="div_hover mt10">JDBC与数据库</div>
+                                        </a>
+                                        <div class="clearfix mt5"><span class="pull-left gray">123人在学</span><span class="pull-right red">&yen;120.00</span></div>
+                                    </div>
+                                    <div class="col-md-4 col-xs-12 col-sm-6 mb20">
+                                        <a href='./courseinfo?cid=d6d5a9fd-ba60-4c7e-8ef0-c00c3893f15f' >
+                                            <img class="img-responsive" src="Content/img/20161104205906937.jpg" alt="">
+                                            <div class="div_hover mt10">JDBC与数据库</div>
+                                        </a>
+                                        <div class="clearfix mt5"><span class="pull-left gray">123人在学</span><span class="pull-right red">&yen;120.00</span></div>
+                                    </div>
+                                    <div class="col-md-4 col-xs-12 col-sm-6 mb20">
+                                        <a href='./courseinfo?cid=d6d5a9fd-ba60-4c7e-8ef0-c00c3893f15f' >
+                                            <img class="img-responsive" src="Content/img/20161104205906937.jpg" alt="">
+                                            <div class="div_hover mt10">JDBC与数据库</div>
+                                        </a>
+                                        <div class="clearfix mt5"><span class="pull-left gray">123人在学</span><span class="pull-right red">&yen;120.00</span></div>
+                                    </div>
+                                    <div class="col-md-4 col-xs-12 col-sm-6 mb20">
+                                        <a href='./courseinfo?cid=d6d5a9fd-ba60-4c7e-8ef0-c00c3893f15f' >
+                                            <img class="img-responsive" src="Content/img/20161104205906937.jpg" alt="">
+                                            <div class="div_hover mt10">JDBC与数据库</div>
+                                        </a>
+                                        <div class="clearfix mt5"><span class="pull-left gray">123人在学</span><span class="pull-right red">&yen;120.00</span></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--第二个标签页:问答-->
+                            <div role="tabpanel" class="tab-pane" id="qa">
+                                <!--内部tab标签页-->
+                                <ul id="myinnerTab" class="nav nav-pills mb20">
+                                    <li class="active"><a href="#myq" tabindex="-1" data-toggle="pill">我的提问</a></li>
+                                    <li><a href="#mya" tabindex="-1" data-toggle="pill">我的回答</a></li>
+                                 </ul>
+
+                                 <div id="myinnerTabContent" class="tab-content">
+                                    <div class="tab-pane active" id="myq">
+                                        <ul class="qaList">
+                                            <li>
+                                                <h5><a href="#" target="_blank">讨论区学生提问第二个问题</a></h5>
+                                                <div class="mt5 gray clearfix">
+                                                    <span class="pull-left">2016-12-1 10:32:42</span>
+                                                    <span class="pull-right">4回复</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <h5><a href="#" target="_blank">讨论区学生提问第二个问题</a></h5>
+                                                <div class="mt5 gray clearfix">
+                                                    <span class="pull-left">2016-12-1 10:32:42</span>
+                                                    <span class="pull-right">4回复</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <h5><a href="#" target="_blank">讨论区学生提问第二个问题</a></h5>
+                                                <div class="mt5 gray clearfix">
+                                                    <span class="pull-left">2016-12-1 10:32:42</span>
+                                                    <span class="pull-right">34回复</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="tab-pane" id="mya">
+                                        <ul class="qaList">
+                                            <li>
+                                                <h5><a href="#" target="_blank">讨论区学生提问第二个回答</a></h5>
+                                                <div class="mt5 gray clearfix">
+                                                    <span class="pull-left">2016-12-1 10:32:42</span>
+                                                    <span class="pull-right">4赞同</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <h5><a href="#" target="_blank">讨论区学生提问第二个回答</a></h5>
+                                                <div class="mt5 gray clearfix">
+                                                    <span class="pull-left">2016-12-1 10:32:42</span>
+                                                    <span class="pull-right">4赞同</span>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <h5><a href="#" target="_blank">讨论区学生提问第二个回答</a></h5>
+                                                <div class="mt5 gray clearfix">
+                                                    <span class="pull-left">2016-12-1 10:32:42</span>
+                                                    <span class="pull-right">4赞同</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>                    
+                            </div>
+                            <!--第三个标签页：动态-->
+                            <div role="tabpanel" class="tab-pane" id="motion">
+                               <div class="editorBox pb10">
+                                   <form action="#" method="post" id="postMotion">
+                                       <textarea id="editor" name="content" placeholder="请输入讨论的内容..." style="width: 100%"></textarea>
+                                       <p class="text-right mt10"><input type="submit" class="redBtn" value="发表"></p>
+                                   </form>
+                               </div>
+                               <ul class="motionList">
+                                    <li>
+                                        <h5><a href="#" target="_blank">讨论区学生提问第二个回答</a></h5>
+                                        <div class="mt5 gray clearfix">
+                                            <div class="pull-left times">2016-12-1 10:32:42</div>
+                                            <div class="pull-right pull-mr10">
+                                                <span>赞同10</span>
+                                                <span>收藏3</span>
+                                                <a class="ml15 gray posir" href="javascript:void(0);" onclick="zhuanfa(this)">转发5</a>
+                                                <a class="ml15 gray posir" href="javascript:void(0);" onclick="comment(this)">评论6</a>
+                                            </div>
+                                        </div>
+                                        <div class="zfkEditor mt10" style="display: none;">
+                                            <form action="">
+                                                <textarea name="content" class="kEditor" style="width: 100%;"></textarea>
+                                                <p class="text-right mt10"><input type="submit" class="redBtn" value="发表"></p>
+                                            </form>
+                                            <div class="resetRow">
+                                                <!--回复列表-->
+                                                <div class="row withTopBorder mt10 pt10">
+                                                    <div class="col-xs-12 col-md-2">
+                                                        <img src="Content/img/头像.png" class="img-circle img-responsive center-block">
+                                                        
+                                                    </div>
+                                                    <div class="col-xs-12 col-md-10">
+                                                        <p class="replyText mt5"><a href="#" class="blue">罗伯特：</a>这是回复文字</p>
+                                                        <p class="gray">2016-11-30 09:43:23</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row withTopBorder mt10 pt10">
+                                                    <div class="col-xs-12 col-md-2">
+                                                        <img src="Content/img/头像.png" class="img-circle img-responsive center-block">
+                                                        
+                                                    </div>
+                                                    <div class="col-xs-12 col-md-10">
+                                                        <p class="replyText mt5"><a href="#" class="blue">罗伯特：</a>这是回复文字</p>
+                                                        <p class="gray">2016-11-30 09:43:23</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="plkEditor mt10" style="display: none;">
+                                            <form action="">
+                                                <textarea name="content" class="kEditor" style="width: 100%;"></textarea>
+                                                <p class="text-right mt10"><input type="submit" class="redBtn" value="发表"></p>
+                                            </form>
+                                            <div class="resetRow">
+                                                <!--回复列表-->
+                                                <div class="row withTopBorder mt10 pt10">
+                                                    <div class="col-xs-12 col-md-2">
+                                                        <img src="Content/img/头像.png" class="img-circle img-responsive center-block">
+                                                        
+                                                    </div>
+                                                    <div class="col-xs-12 col-md-10">
+                                                        <p class="replyText mt5"><a href="#" class="blue">罗伯特：</a>这是回2复文字</p>
+                                                        <p class="gray">2016-11-30 09:43:23</p>
+                                                    </div>
+                                                </div>
+                                                <div class="row withTopBorder mt10 pt10">
+                                                    <div class="col-xs-12 col-md-2">
+                                                        <img src="Content/img/头像.png" class="img-circle img-responsive center-block">
+                                                        
+                                                    </div>
+                                                    <div class="col-xs-12 col-md-10">
+                                                        <p class="replyText mt5"><a href="#" class="blue">罗伯特：</a>这是2回复文字</p>
+                                                        <p class="gray">2016-11-30 09:43:23</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h5><a href="#" target="_blank">讨论区学生提问第二个回答</a></h5>
+                                        <div class="mt5 gray clearfix">
+                                            <div class="pull-left times">2016-12-1 10:32:42</div>
+                                            <div class="pull-right pull-mr10">
+                                                <span>赞同10</span>
+                                                <span>收藏3</span>
+                                                <a class="ml15 gray posir" href="javascript:void(0);" onclick="zhuanfa(this)">转发5</a>
+                                                <a class="ml15 gray posir" href="javascript:void(0);" onclick="comment(this)">评论6</a>
+                                            </div>
+                                        </div>
+                                        <div class="zfkEditor mt10" style="display: none;">
+                                            <form action="">
+                                                <textarea name="content" class="kEditor" style="width: 100%;"></textarea>
+                                                <p class="text-right mt10"><input type="submit" class="redBtn" value="发表"></p>
+                                            </form>
+                                        </div>
+                                        <div class="plkEditor mt10" style="display: none;">
+                                            <form action="">
+                                                <textarea name="content" class="kEditor" style="width: 100%;"></textarea>
+                                                <p class="text-right mt10"><input type="submit" class="redBtn" value="发表"></p>
+                                            </form>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h5><a href="#" target="_blank">讨论区学生提问第二个回答</a></h5>
+                                        <div class="mt5 gray clearfix">
+                                            <div class="pull-left times">2016-12-1 10:32:42</div>
+                                            <div class="pull-right pull-mr10">
+                                                <span>赞同10</span>
+                                                <span>收藏3</span>
+                                                <a class="ml15 gray posir" href="javascript:void(0);" onclick="zhuanfa(this)">转发5</a>
+                                                <a class="ml15 gray posir" href="javascript:void(0);" onclick="comment(this)">评论6</a>
+                                            </div>
+                                        </div>
+                                        <div class="zfkEditor mt10" style="display: none;">
+                                            <form action="">
+                                                <textarea name="content" class="kEditor" style="width: 100%;"></textarea>
+                                                <p class="text-right mt10"><input type="submit" class="redBtn" value="发表"></p>
+                                            </form>
+                                        </div>
+                                        <div class="plkEditor mt10" style="display: none;">
+                                            <form action="">
+                                                <textarea name="content" class="kEditor" style="width: 100%;"></textarea>
+                                                <p class="text-right mt10"><input type="submit" class="redBtn" value="发表"></p>
+                                            </form>
+                                        </div>
+                                    </li>
+                                </ul>                              
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--right-->
+            
+            <div class="col-md-4 col-xs-12 siderBar">
+                <!--将banner区域的粉丝数等移动到右侧边栏-->
+                <div class="panel panel-default">
+                    <div class="panel-body clearfix" style="padding:10px 0;">
+                        <div class="col-md-6 col-xs-6" style="text-align:center;border-right:1px solid #ddd">
+                            <a href="follow01.html">                                   
+                                <div class="font16"><strong>16</strong></div>
+                                <div class="gray">关注</div>
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-xs-6" style="text-align:center;">
+                            <a href="follow02.html">
+                                <div class="font16"><strong>16</strong></div>
+                                <div class="gray">粉丝</div>                                 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row" style="border-bottom:1px solid #ccc;padding:10px;margin:10px;"><div class="pull-left font16">最近访客</div><div class="pull-right"><a href="#" class="gray">更多&gt;</a></div></div>
+                        <div class="minHeight-xs clearfix">
+                            <div class="col-md-4 col-xs-4 text-center" style="padding-top: 15px">
+                                <img src="Content/img/s1.jpg" class="img-circle img-responsive center-block">
+                                <p>胡歌</p>
+                            </div>
+                            <div class="col-md-4 col-xs-4 text-center" style="padding-top: 15px">
+                                <img src="Content/img/s1.jpg" class="img-circle img-responsive center-block">
+                                <p>胡歌</p>
+                            </div>
+                            <div class="col-md-4 col-xs-4 text-center" style="padding-top: 15px">
+                                <img src="Content/img/s1.jpg" class="img-circle img-responsive center-block">
+                                <p>胡歌</p>
+                            </div>
+                            <div class="col-md-4 col-xs-4 text-center" style="padding-top: 15px">
+                                <img src="Content/img/s1.jpg" class="img-circle img-responsive center-block">
+                                <p>胡歌</p>
+                            </div>
+                            <div class="col-md-4 col-xs-4 text-center" style="padding-top: 15px">
+                                <img src="Content/img/s1.jpg" class="img-circle img-responsive center-block">
+                                <p>胡歌</p>
+                            </div>
+                            <div class="col-md-4 col-xs-4 text-center" style="padding-top: 15px">
+                                <img src="Content/img/s1.jpg" class="img-circle img-responsive center-block">
+                                <p>胡歌</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row" style="border-bottom:1px solid #ccc;padding:10px;margin:10px;"><div class="pull-left font16">感兴趣的人</div><div class="pull-right"><a href="#" class="gray">更多&gt;</a></div></div>
+                        <div class="minHeight-xs clearfix">
+                            <div class="col-md-4 col-xs-4 text-center" style="padding-top: 15px">
+                                <img src="Content/img/s1.jpg" class="img-circle img-responsive center-block">
+                                <p>胡歌</p>
+                            </div>
+                            <div class="col-md-4 col-xs-4 text-center" style="padding-top: 15px">
+                                <img src="Content/img/s1.jpg" class="img-circle img-responsive center-block">
+                                <p>胡歌</p>
+                            </div>
+                            <div class="col-md-4 col-xs-4 text-center" style="padding-top: 15px">
+                                <img src="Content/img/s1.jpg" class="img-circle img-responsive center-block">
+                                <p>胡歌</p>
+                            </div>
+                            <div class="col-md-4 col-xs-4 text-center" style="padding-top: 15px">
+                                <img src="Content/img/s1.jpg" class="img-circle img-responsive center-block">
+                                <p>胡歌</p>
+                            </div>
+                            <div class="col-md-4 col-xs-4 text-center" style="padding-top: 15px">
+                                <img src="Content/img/s1.jpg" class="img-circle img-responsive center-block">
+                                <p>胡歌</p>
+                            </div>
+                            <div class="col-md-4 col-xs-4 text-center" style="padding-top: 15px">
+                                <img src="Content/img/s1.jpg" class="img-circle img-responsive center-block">
+                                <p>胡歌</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>    
+    
+<!--尾部代码省略-->  
+<!--本页面js代码-->
+<script>
+	//模拟导航高亮，正式开发环境请删除
+	$(".navList>li").click(function(){$(this).addClass("cur").siblings().removeClass("cur")});
+    //编辑器调用
+    var editor;
+    KindEditor.ready(function(K) {
+        editor = K.create('textarea[name="content"]', {
+            resizeType : 1,
+            allowPreviewEmoticons : false,
+            allowImageUpload : false,
+            items : [
+                'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+                'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+                'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+        });
+    });
+    //转发时弹出编辑框
+    function zhuanfa(obj){
+        var zfeditor=$(obj).parent().parent().siblings(".zfkEditor");
+        var pleditor=$(obj).parent().parent().siblings(".plkEditor");
+        var parents=$(".motionList");
+        if(zfeditor.is(":hidden")){
+            $(obj).append("<i class='onarr'></i>");
+            $(obj).siblings().find(".onarr").remove();
+            zfeditor.show();
+            pleditor.hide();
+        }else{
+            $(obj).find(".onarr").remove();
+            zfeditor.hide();
+        }
+    }
+    //评论时弹出编辑框
+    function comment(obj){
+        var zfeditor=$(obj).parent().parent().siblings(".zfkEditor");
+        var pleditor=$(obj).parent().parent().siblings(".plkEditor");
+        if(pleditor.is(":hidden")){
+            $(obj).append("<i class='onarr'></i>");
+            $(obj).siblings().find(".onarr").remove();
+            pleditor.show();
+            zfeditor.hide();
+        }else{
+            $(obj).find(".onarr").remove();
+            pleditor.hide();
+        }
+    }
+</script>
+</body>
+</html>
